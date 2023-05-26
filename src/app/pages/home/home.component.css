@@ -1,11 +1,15 @@
 .container__articles{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: black;
-  margin: 30px 232px 0 232px;
+  background-color: rgb(18, 18, 18);
+  padding-top: 20px;
+  margin: 0 232px 0 232px;
 }
 
 .articles__main{
+  padding-right: 32px;
 }
 .articles__others{
+  padding-top: 28px;
+  padding-left: 32px;
 }

@@ -1,16 +1,23 @@
 .container__menu-title{
-  color: white;
+  display: flex;
+  flex-direction: column;
   background-color: rgb(18, 18, 18);
   margin: 0 232px 0 232px;
+  height: 280px;
 }
 
-.container__menu-title > img{
+.container__menu-title > h1{
+  display: flex;
   justify-content: center;
-  height: 300px;
-  width: 300px;
+
+  padding: 10px 0;
+
+  font-size: 303px;
+  line-height: 273.2px;
+  letter-spacing: -15px;
 }
 
-.container__menu-title > hr{
-  margin-left: 51.2px;
-  margin-right: 51.2px;
+hr {
+  border-color: rgba(0, 0, 0, 0.377);
+  margin: 0 60px 0 60px;
 }

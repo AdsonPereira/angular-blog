@@ -1,11 +1,14 @@
 .container__menu-bar{
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+
+  font-family: 'Poppins', sans-serif;
   font-size: 12px;
   font-weight: 500;
   align-items: center;
   margin: 0 232px 0 232px;
-  padding: 40px 60px;
+  padding: 50px 60px;
   background-color: rgb(18, 18, 18);
 }
 
