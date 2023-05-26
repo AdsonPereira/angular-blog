@@ -1,0 +1,11 @@
+.container__small-card{
+  display: flex;
+  flex-direction: row;
+}
+.small-card__photo > img{
+  width: 40%;
+}
+
+.small-card__title{
+  font-size: 0.75rem;
+}

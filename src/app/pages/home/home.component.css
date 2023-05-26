@@ -1,0 +1,11 @@
+.container__articles{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+  margin: 30px 232px 0 232px;
+}
+
+.articles__main{
+}
+.articles__others{
+}
