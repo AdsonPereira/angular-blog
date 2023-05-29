@@ -1,16 +1,16 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2019/11/O-Que-%C3%A9-Angular-Guia-para-Iniciantes.webp" alt="">
+    <img src="{{ photoCover }}" alt="">
   </div>
 
   <div class="big-card__title">
     <p><time datetime="2023-02-01 19:00"> 01 FEVEREIRO, 2023</time>.</p>
-    <h1><a href="https://www.hostinger.com.br/tutoriais/o-que-e-angular">O Que é Angular? Guia para Iniciantes</a></h1>
+    <h1><a href="https://www.hostinger.com.br/tutoriais/o-que-e-angular">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
     <p>
-      Se você curte desenvolvimento de software, provavelmente já ouviu falar sobre o Angular. Ele é um dos frameworks JavaScript mais populares entre os desenvolvedores que usam a ferramenta para desenvolver e construir sites dinâmicos. Neste artigo, você vai aprender sobre o que é Angular, como ele surgiu e as vantagens de usá-lo no seu dia a dia.
+      {{ cardDescription }}
     </p>
   </div>
 </div>
