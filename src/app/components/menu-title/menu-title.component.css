@@ -25,9 +25,9 @@ hr {
 
 @media screen and (min-width: 380px) {
   .container__menu-title > h1{
-    font-size: 80px;
+    font-size: 85px;
     letter-spacing: -3px;
-    line-height: 150px;
+    line-height: 88px;
   }
 
   .container__menu-title{
@@ -41,19 +41,20 @@ hr {
 
 @media screen and (min-width: 576px) {
   .container__menu-title > h1{
-    font-size: 120px;
-    line-height: 255px;
+    font-size: 105px;
+    line-height: 200px;
   }
 }
 
 @media screen and (min-width: 992px) {
   .container__menu-title > h1{
-    font-size: 200px;
+    font-size: 208px;
   }
 }
 
 @media screen and (min-width: 1420px){
   .container__menu-title > h1{
+    font-size: 238px;
     line-height: 300px;
   }
   .container__menu-title{

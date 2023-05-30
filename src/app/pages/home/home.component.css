@@ -10,9 +10,19 @@ app-big-card{
 }
 .articles__main{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #18181b;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  display: flex;
   margin: 60px;
+  max-height: 530px;
 }
+
 .articles__others{
+  background-color: #18181b;
+  border-radius: 15px;
   margin: 60px;
 }
 
@@ -26,10 +36,12 @@ app-big-card{
     width: 100%;
   }
   .articles__main{
+    padding: 30px;
     margin: 20px;
   }
   .articles__others{
-    margin: 10px;
+    padding: 30px;
+    margin: 15px;
   }
 }
 

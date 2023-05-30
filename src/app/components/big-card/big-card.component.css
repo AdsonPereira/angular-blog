@@ -1,6 +1,11 @@
 .container__big-card{
   display: flex;
   flex-direction: column;
+  border-style: inset;
+  border-color: rgba(255, 255, 255, 0.103);
+  border-radius: 15px;
+  padding: 25px;
+  height: 450px;
 }
 
 .big-card__title > h1{
@@ -32,6 +37,8 @@
 .big-card__photo > img{
   width: 100%;
   min-width: 300px;
+  border-radius: 8px;
+  margin-bottom: 25px;
 }
 
 @media screen and (min-width: 380px) {

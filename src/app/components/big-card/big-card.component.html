@@ -5,7 +5,7 @@
 
   <div class="big-card__title">
     <p><time datetime="2023-02-01 19:00"> 01 FEVEREIRO, 2023</time>.</p>
-    <h1><a href="https://www.hostinger.com.br/tutoriais/o-que-e-angular">{{ cardTitle }}</a></h1>
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
@@ -14,4 +14,3 @@
     </p>
   </div>
 </div>
-

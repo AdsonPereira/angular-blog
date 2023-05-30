@@ -12,9 +12,10 @@ export class SmallCardComponent implements OnInit {
   @Input()
   cardTitle:string =""
   @Input()
-  linkTitle:string =""
-  @Input()
   datePost:string =""
+  @Input()
+  Id:string="0"
+
   constructor(){ }
 
   ngOnInit(): void{

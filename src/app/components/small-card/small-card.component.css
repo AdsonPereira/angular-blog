@@ -4,12 +4,17 @@
 }
 
 .container__small-card-content{
+  background-color: rgba(255, 255, 255, 0.015);
+  border-radius: 15px;
+  border-style: inset;
+  border-color: rgba(255, 255, 255, 0.103);
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100%;
   margin-top: 32px;
   margin-bottom: 32px;
+  padding: 33px;
 }
 
 .small-card__photo{
@@ -22,7 +27,7 @@
 .small-card__photo > img{
   width: 80px;
   height: 50px;
-
+  border-radius: 8px;
 }
 
 .small-card__title{
