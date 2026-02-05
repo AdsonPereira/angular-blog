@@ -1,30 +1,34 @@
-## Projeto de um Blog feito com Angular no Bootcamp DIO
+# 📰 Angular Blog
 
-# AngularBlog
+Aplicação SPA desenvolvida com Angular para simular um blog de notícias, utilizando componentização, rotas e renderização dinâmica de conteúdo.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
-Projeto de um Blog feito com Angular no Bootcamp DIO
+---
 
-## Development server
+## 🚀 Sobre o projeto
+O projeto consiste em um blog onde é possível navegar entre diferentes posts através de rotas dinâmicas.  
+Foi desenvolvido com o objetivo de praticar a estrutura de aplicações Angular, separação de componentes e organização de código em uma Single Page Application.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🧠 Tecnologias utilizadas
+- Angular
+- TypeScript
+- HTML5
+- CSS3
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## ⚙️ Funcionalidades
+- Navegação entre páginas sem recarregamento
+- Estrutura de componentes reutilizáveis
+- Rotas dinâmicas
+- Renderização de conteúdo baseado em parâmetros
+- Layout responsivo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## ▶️ Como executar o projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 1️⃣ Clonar repositório
+```bash
+git clone https://github.com/AdsonPereira/angular-blog.git
