@@ -54,8 +54,8 @@ hr {
 
 @media screen and (min-width: 1420px){
   .container__menu-title > h1{
-    font-size: 238px;
-    line-height: 300px;
+    font-size: 100px;
+    line-height: 150px;
   }
   .container__menu-title{
     height: 350px;
