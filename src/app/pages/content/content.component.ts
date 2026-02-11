@@ -18,15 +18,21 @@ export class ContentComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.route.paramMap.subscribe( value =>
-     this.id = value.get("id")
-    )
-
-    this.setValuesToComponent(this.id)
+    this.route.paramMap.subscribe(value => {
+      this.id = value.get("id")
+      this.setValuesToComponent(this.id)
+    })
   }
 
   setValuesToComponent(id:string | null){
-    const result = dataFake.filter(article => article.id == id)[0]
+    const result = dataFake.find(article => article.id === id)
+
+    if (!result) {
+      this.contentTitle = "Conteúdo não encontrado"
+      this.contentDescription = "Não foi possível localizar esse artigo. Volte para a página inicial e escolha outro conteúdo."
+      this.photoCover = ""
+      return
+    }
 
     this.contentTitle = result.title
     this.contentDescription = result.description

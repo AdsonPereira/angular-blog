@@ -13,6 +13,10 @@ export class BigCardComponent implements OnInit {
   @Input()
   cardDescription:string =""
   @Input()
+  datePost:string =""
+  @Input()
+  dateIso:string =""
+  @Input()
   Id:string="0"
   
   constructor(){ }

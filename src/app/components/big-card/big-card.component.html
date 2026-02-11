@@ -1,10 +1,10 @@
 <div class="container__big-card">
   <div class="big-card__photo">
-    <img src="{{ photoCover }}" alt="">
+    <img [src]="photoCover" [alt]="cardTitle" loading="lazy">
   </div>
 
   <div class="big-card__title">
-    <p><time datetime="2023-02-01 19:00"> 01 FEVEREIRO, 2023</time>.</p>
+    <p><time [attr.datetime]="dateIso">{{ datePost }}</time></p>
     <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
   </div>
 
